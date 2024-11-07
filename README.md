@@ -9,7 +9,7 @@ With this example, you’ll learn how to create and manage users, organize them 
 To begin using this repository, clone it to your local machine and install the dependencies:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/usefoyer/foyer-js-client-example
 cd foyer-js-client-example
 npm install
 ```
