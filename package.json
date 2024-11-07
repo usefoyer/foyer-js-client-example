@@ -1,0 +1,41 @@
+{
+    "name": "foyer-js-client-example",
+    "version": "1.0.0",
+    "description": "An example of a NodeJS project that uses the Foyer JavaScript API Client (@usefoyer/client).",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test": "vitest run --testTimeout=10000",
+        "test:watch": "vitest"
+    },
+    "keywords": [
+        "typescript",
+        "library"
+    ],
+    "author": "Foyer LLC",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/usefoyer/foyer-js-client-example"
+    },
+    "bugs": {
+        "url": "https://github.com/usefoyer/foyer-js-client-example/issues"
+    },
+    "homepage": "https://usefoyer.com",
+    "devDependencies": {
+        "@types/node": "^22.9.0",
+        "dotenv": "^16.3.1",
+        "tsup": "^8.3.0",
+        "typescript": "^5.6.3",
+        "vitest": "^2.1.3"
+    },
+    "dependencies": {
+        "@usefoyer/client": "^1.0.4"
+    }
+}
